@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* 採用情報 */
+
+.recruit {
+    width: 960px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+h2.recruit-title {
+    border-bottom: 1px solid #222;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+p.recruit-text {
+    margin-top: 20px;
+}
+
+.recruit-name {
+    border: 1px solid #222;
+    background-color: #f5f6f9;
+    font-weight: bold;
+    width: 30%;
+    padding: 10px;
+}
+
+td.recruit-data {
+    border: 1px solid #222;
+    width: 70%;
+    padding: 10px;
+}
+
+.recruit-info {
+    width: 100%;
+    border: 1px solid #222;
+    margin-top: 20px;
+}
+
+.recruit-data:not(:first-child) {
+    margin-top: 80px;
+}

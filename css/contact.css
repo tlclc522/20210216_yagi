@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+/* お問い合わせ */
+.content {
+    width: 960px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.contact-form-name {
+    font-weight: bold;
+}
+
+.contact-required {
+    color: red;
+}
+
+.company-input {
+    margin-top: 5px;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+}
+
+.company-text {
+    margin-top: 5px;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+}
+
+.contact-form-item:not(:first-child) {
+    padding-top: 30px;
+}
+
+.contact-form-btn {
+    background-color: #000;
+    color: #fff;
+    width: 300px;
+    margin: 20px auto 0;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
+
+/* sp */
+@media screen and (max-width:768px){
+    .contact-form-item:not(:first-child){
+        padding-top:20px;
+    }
+}

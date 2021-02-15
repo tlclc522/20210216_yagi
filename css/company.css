@@ -1,0 +1,331 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1.6;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+html {
+  height: 100%;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+body {
+  color: #333333;
+  height: 100%;
+}
+
+.mb10 {
+  margin-bottom:10px;
+}
+
+.mb80 {
+  margin-bottom:80px;
+}
+
+.pb80 {
+  padding-bottom:80px;
+}
+
+.txt_c {
+  text-align: center;
+}
+
+.wrap {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+
+/* header */
+
+#top-header {
+    height: 70px;
+    line-height: 70px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #fff;
+    line-height: 70px;
+}
+
+.header-nav-list li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* contact */
+.contact-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact {
+    background-color: #f5f6f9;
+    padding: 80px;
+}
+
+a.contact-btn {
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #cd0224;
+    color: #fff;
+    margin: 40px auto 0;
+}
+
+/* footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+ul.footer-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-nav-item a {
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-nav-item {
+    border-right: 1px solid #fff;
+    height: 25px;
+}
+
+.footer-nav-item:last-child {
+    border-right: none;
+}
+
+/* タイトル */
+
+
+/* 会社概要 */
+
+.company {
+    padding: 80px 0;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.company-neme {
+    font-weight: bold;
+    width: 30%;
+}
+
+.company-data {
+    width: 70%;
+}
+
+.company-name, .company-data {
+    border-top: 1px solid #222;
+    padding: 20px 0;
+}
+
+table.company-info {
+    width: 100%;
+    border-bottom: 1px solid #222;
+}

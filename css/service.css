@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+/* 事業内容 */
+.page-title {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: url(../img/mv.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.service-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    border-top: 1px solid #222;
+    justify-content: space-between;
+}
+
+.service-item-img {
+    width: 290px;
+}
+
+.service-item-textarea {
+    width: calc(100% - 330px);
+}
+
+.service-list {
+    margin-top: 80px;
+}
+
+.service-item:nth-of-type(4) {
+    margin-bottom: 80px;
+}
+
+.service-item-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* sp */
+@media only screen and (max-width:768px) {
+.service.wrap {
+    width: 85%;
+}
+
+.service-item-img {
+    width: 100%;
+ }
+
+.service-item {
+    display: block;
+ }
+
+.service-item-textarea {
+    width: 100%;
+ }
+
+.service-item-title {
+    margin-top: 10px;
+ }
+}

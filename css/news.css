@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+/* ニュース */
+.news {
+    padding: 80px 0;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.news-item a {
+    display: flex;
+    align-items: center;
+    border: 1px solid #222;
+    padding: 20px;
+}
+
+.news-item:not(:first-child) {
+    padding-top: 10px;
+}
+
+/* sp */
+@media screen and (max-width:768px) {
+    .news-link {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.news-title {
+    margin-left: 5px;
+}
+}

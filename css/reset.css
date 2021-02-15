@@ -1,0 +1,469 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1.6;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+html {
+  height: 100%;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+body {
+  color: #333333;
+  height: 100%;
+}
+
+.mb10 {
+  margin-bottom:10px;
+}
+
+.mb80 {
+  margin-bottom:80px;
+}
+
+.pb80 {
+  padding-bottom:80px;
+}
+
+.txt_c {
+  text-align: center;
+}
+
+.wrap {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+
+/* header */
+
+#top-header {
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #fff;
+    line-height: 70px;
+}
+
+.header-nav-list li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* contact */
+.contact-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact {
+    background-color: #f5f6f9;
+    padding: 80px;
+}
+
+a.contact-btn {
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #cd0224;
+    color: #fff;
+    margin: 40px auto 0;
+}
+
+/* footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+ul.footer-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-nav-item a {
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-nav-item {
+    border-right: 1px solid #fff;
+    height: 25px;
+}
+
+.footer-nav-item:last-child {
+    border-right: none;
+}
+
+.page-title {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: url(../img/mv.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ハンバーガーメニュー */
+
+.hamburger-menu {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+
+.hamburger-menu{
+    display: block;
+}
+
+.header-nav-list {
+    display: none;
+}
+
+.menu-btn {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    /* background-color: #3584bb; */
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 35px;
+    border-radius: 3px;
+    background-color: #000;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 12px;
+}
+.menu-btn span:after {
+    top: 12px;
+}
+
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+#menu-btn-check {
+    display: none;
+}
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    background-color: #3584bb;
+}
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+.menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:#0033cc;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+    text-align: center;
+}
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 80;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+#menu-btn-check:checked ~ .menu-content {
+    left: 0;
+}
+
+}
+
+/* sp */
+@media screen and (max-width:768px) {
+   .wrap {
+    width: 85%;
+  }
+  
+  .contact {
+        padding: 40px 0;
+    }
+
+    .footer .wrap {
+      width: 85%;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-nav-item {
+        border:none;
+    }
+
+    ul.footer-nav-list {
+        display: block;
+    }
+
+    .footer .flex {
+        display: block;
+    }
+}

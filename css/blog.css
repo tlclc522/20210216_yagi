@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+
+/* ブログ */
+.page-title {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: url(../img/mv.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+article.blog-item {
+    width: 32%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.blog {
+    padding: 80px 0;
+}
+
+.blog-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.blog-date {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.blog-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+/* sp */
+@media screen and (max-width:768px){
+    .blog-list {
+    display: block;
+}
+
+article.blog-item {
+    width: 100%;
+}
+}
